@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://ccit18081430224.github.io/"/>
-  <updated>2020-04-16T13:29:10.961Z</updated>
+  <updated>2020-05-07T08:54:46.202Z</updated>
   <id>https://ccit18081430224.github.io/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>关于搭建</title>
+    <link href="https://ccit18081430224.github.io/2020/05/07/%E5%85%B3%E4%BA%8E%E6%90%AD%E5%BB%BA/"/>
+    <id>https://ccit18081430224.github.io/2020/05/07/%E5%85%B3%E4%BA%8E%E6%90%AD%E5%BB%BA/</id>
+    <published>2020-05-07T08:43:56.000Z</published>
+    <updated>2020-05-07T08:54:46.202Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="本地搭建"><a href="#本地搭建" class="headerlink" title="本地搭建"></a>本地搭建</h1><h3 id="搭建hexo"><a href="#搭建hexo" class="headerlink" title="搭建hexo"></a>搭建hexo</h3><p>想要做一个属于自己的博客，首先我们要搭建一个HEXO</p><ol><li><p>下载NODE.js</p><p>安装步骤：一直next就行，没有啥特殊要求</p><blockquote><p>在cmd窗口输入 node -v  验证，出现版本号即为成功</p></blockquote></li></ol><p>​       <img src="../../../Pictures/picture/2.png" alt=""></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;本地搭建&quot;&gt;&lt;a href=&quot;#本地搭建&quot; class=&quot;headerlink&quot; title=&quot;本地搭建&quot;&gt;&lt;/a&gt;本地搭建&lt;/h1&gt;&lt;h3 id=&quot;搭建hexo&quot;&gt;&lt;a href=&quot;#搭建hexo&quot; class=&quot;headerlink&quot; title=&quot;搭建hex
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>图片</title>
