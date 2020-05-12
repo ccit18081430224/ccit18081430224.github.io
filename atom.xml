@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://ccit18081430224.github.io/"/>
-  <updated>2020-05-12T03:19:15.778Z</updated>
+  <updated>2020-05-12T04:47:42.656Z</updated>
   <id>https://ccit18081430224.github.io/</id>
   
   <author>
@@ -17,13 +17,36 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>关于乔迁</title>
+    <link href="https://ccit18081430224.github.io/2020/05/12/%E5%85%B3%E4%BA%8E%E9%83%A8%E7%BD%B2/"/>
+    <id>https://ccit18081430224.github.io/2020/05/12/%E5%85%B3%E4%BA%8E%E9%83%A8%E7%BD%B2/</id>
+    <published>2020-05-12T03:26:47.000Z</published>
+    <updated>2020-05-12T04:47:42.656Z</updated>
+    
+    <content type="html"><![CDATA[<p>本地博客是只有在我们自己电脑上才能看的 怎么才能让别人看到自己的博客呢？<br>这时候我们就要给博客换个新家 将博客乔迁到GitHub上</p><h3 id="什么是GitHub？"><a href="#什么是GitHub？" class="headerlink" title="什么是GitHub？"></a>什么是GitHub？</h3><hr><p>GitHub是通过Git进行版本控制的软件源代码托管服务，由GitHub公司的使用Ruby on Rails编写而成。用户可以免费创建公开的代码仓库</p><h2 id="乔迁部署"><a href="#乔迁部署" class="headerlink" title="乔迁部署"></a>乔迁部署</h2><ol><li>我们首先要注册一个自己的GitHub账号</li></ol><p><img src="http://q9yccga3b.bkt.clouddn.com/GitHub%E6%B3%A8%E5%86%8C.png" alt=""></p><ol start="2"><li><p>创建仓库</p><p>注册登录后，会有一个 新建 ,点击 new</p><p><img src="http://q9yccga3b.bkt.clouddn.com/%E6%96%B0%E5%BB%BA%E4%BB%93%E5%BA%93%E6%8C%89%E9%92%AE.png" alt=""></p><p>创建一个和你用户名相同的仓库，<strong>用户名后面要加  .github.io ，以后将博客部署到GitHub页面时，才会被识别</strong></p></li></ol><p><img src="http://q9yccga3b.bkt.clouddn.com/%E6%96%B0%E5%BB%BA%E4%BB%93%E5%BA%931.png" alt=""></p><p><em>(我这里时已经注册过了)</em></p><p>点击 Creat repository 创建仓库</p><ol start="3"><li>生成SSH密钥</li></ol><p>打开 git bash 输入</p><blockquote><p>git config –global user.name “yourname”<br>git config –global user.email “youremail”</p></blockquote><p><strong><em>(这里的”yourname”和”youremail”都是你注册GitHub时的信息)</em></strong></p><p>然后再输入</p><blockquote><p>ssh-keygen -t rsa -C “youremail”</p></blockquote><p>一直next ，直到生成一个叫 .ssh 的文件夹</p><ol start="4"><li>将生成的SSH密钥添加到GitHub</li></ol><p>​     在电脑中找到 .ssh 文件夹</p><p><img src="http://q9yccga3b.bkt.clouddn.com/.ssh%E6%96%87%E4%BB%B6%E5%A4%B9.png" alt=""></p><p>然后在GitHub的setting中，找到SSH keys的设置选项，点击New SSH key 把你的id_rsa.pub里面的信息复制进去</p><p><img src="http://q9yccga3b.bkt.clouddn.com/SSH%E5%AF%86%E9%92%A5.png" alt=""></p><p>5.将hexo部署到GitHub上</p><p>打开站点配置文件 _config.yml ，将这个文件的最后部分<br>修改成</p><blockquote><p>deploy:<br> type: git<br> repo: <a href="https://github.com/YourgithubName/YourgithubName.github.io.git" target="_blank" rel="noopener">https://github.com/YourgithubName/YourgithubName.github.io.git</a><br> branch: master</p></blockquote><p><strong><em>（冒号后面一定要有个空格！！！）</em></strong><br>文件配置好之后输入部署命令</p><blockquote><p>npm install hexo-deployer-git –save</p></blockquote><p><em>（部署过程中可能会要你输入GitHub的用户名和密码）</em></p><p>最后</p><blockquote><p>hexo clean（清除你之前生成的东西）<br>hexo g （是hexo generate 的简写，生成静态文章）<br>hexo d  （是hexo deploy鹅简写，部署文章）</p></blockquote><p>就会得到你的个人域名<br>你的博客就成功部署到GitHub上啦 </p><p>通过 <a href="https://yourname.github.io" target="_blank" rel="noopener">https://yourname.github.io</a> 就可以查看啦</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;本地博客是只有在我们自己电脑上才能看的 怎么才能让别人看到自己的博客呢？&lt;br&gt;这时候我们就要给博客换个新家 将博客乔迁到GitHub上&lt;/p&gt;
+&lt;h3 id=&quot;什么是GitHub？&quot;&gt;&lt;a href=&quot;#什么是GitHub？&quot; class=&quot;headerlink&quot; tit
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>关于搭建</title>
     <link href="https://ccit18081430224.github.io/2020/05/07/%E5%85%B3%E4%BA%8E%E6%90%AD%E5%BB%BA/"/>
     <id>https://ccit18081430224.github.io/2020/05/07/%E5%85%B3%E4%BA%8E%E6%90%AD%E5%BB%BA/</id>
     <published>2020-05-07T08:43:56.000Z</published>
-    <updated>2020-05-12T03:19:15.778Z</updated>
+    <updated>2020-05-12T03:26:10.777Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="本地搭建"><a href="#本地搭建" class="headerlink" title="本地搭建"></a>本地搭建</h1><h3 id="搭建hexo"><a href="#搭建hexo" class="headerlink" title="搭建hexo"></a>搭建hexo</h3><p>想要做一个属于自己的博客，首先我们要搭建一个HEXO</p><ol><li><p>下载NODE.js</p><p>安装步骤：一直next就行，没有啥特殊要求</p><blockquote><p>在cmd窗口输入 node -v  验证，出现版本号即为成功</p><p>继续输入  npm -v  安装npm</p></blockquote></li></ol><p>   <img src="http://q9yccga3b.bkt.clouddn.com/1.png" alt=""></p><ol start="2"><li><p>下载git</p><p>安装步骤：也一直next</p><blockquote><p>cmd窗口下输入 git 检验是否安装成功</p></blockquote></li></ol><p>   <img src="http://q9yccga3b.bkt.clouddn.com/git.png" alt=""></p><p>   <strong><em>（可以在camd窗口下输入 npm congig set registry <a href="http://registry.npm.taobao.org/" target="_blank" rel="noopener">http://registry.npm.taobao.org/</a>  下载淘宝镜像 提升访问速度下）</em></strong></p><ol start="3"><li>完成上面两步之后就可以安装hexo了</li></ol><blockquote><p>在cmd窗口下输入输入 npm install hexo-cli -g   </p></blockquote><p><em>（安装时间可能有点长，请耐心等待）</em></p><ol start="4"><li><p>在本地搭建开始之前我们还需要做最后一步准备工作——创建一个用来放置关于博客资源和博文的文件夹</p><p>继续在cmd窗口下输入 md blog 就可以在当前路径下创建一个名叫blog的文件夹</p></li></ol><p>   <img src="http://q9yccga3b.bkt.clouddn.com/%E6%96%87%E4%BB%B6%E5%A4%B9%E5%86%85%E5%AE%B9.png" alt=""></p><p>   <strong>（如果遇到什么实在解决不了的问题，我们可以讲这个文件夹直接删除从新开始</strong>（虽然很粗暴，但是很有用）<strong>）</strong></p><ol start="5"><li><p>准备就绪，我们首先输入 cd blog 进入到刚才新建的文件夹</p><p>然后输入 hexo init 耐心等待初始化 </p><p>最后输入 hexo s  </p><p>会出现<br><img src="http://q9yccga3b.bkt.clouddn.com/%E6%9C%AC%E5%9C%B0%E9%A2%84%E8%A7%88.png" alt=""></p><blockquote><p>将 <a href="http://localhost:4000" target="_blank" rel="noopener">http://localhost:4000</a> 复制粘贴到浏览器中就会出现</p></blockquote><p><img src="http://q9yccga3b.bkt.clouddn.com/%E5%88%9D%E5%A7%8B%E5%8C%96.png" alt=""></p><p>这样我们博客的本地搭建就完成啦~</p></li></ol>]]></content>
+    <content type="html"><![CDATA[<h1 id="本地搭建"><a href="#本地搭建" class="headerlink" title="本地搭建"></a>本地搭建</h1><h3 id="搭建hexo"><a href="#搭建hexo" class="headerlink" title="搭建hexo"></a>搭建hexo</h3><p>想要做一个属于自己的博客，首先我们要搭建一个HEXO</p><ol><li><p>下载NODE.js</p><p>安装步骤：一直next就行，没有啥特殊要求</p><blockquote><p>在cmd窗口输入 node -v  验证，出现版本号即为成功</p><p>继续输入  npm -v  安装npm</p></blockquote></li></ol><p>   <img src="http://q9yccga3b.bkt.clouddn.com/1.png" alt=""></p><ol start="2"><li><p>下载git</p><p>安装步骤：也一直next</p><blockquote><p>cmd窗口下输入 git 检验是否安装成功</p></blockquote></li></ol><p>   <img src="http://q9yccga3b.bkt.clouddn.com/git.png" alt=""></p><p>   <strong><em>（可以在camd窗口下输入 npm congig set registry <a href="http://registry.npm.taobao.org/" target="_blank" rel="noopener">http://registry.npm.taobao.org/</a>  下载淘宝镜像 提升访问速度下）</em></strong></p><ol start="3"><li>完成上面两步之后就可以安装hexo了</li></ol><blockquote><p>在cmd窗口下输入输入 npm install hexo-cli -g   </p></blockquote><p><em>（安装时间可能有点长，请耐心等待）</em></p><ol start="4"><li><p>在本地搭建开始之前我们还需要做最后一步准备工作——创建一个用来放置关于博客资源和博文的文件夹</p><p>继续在cmd窗口下输入 md blog 就可以在当前路径下创建一个名叫blog的文件夹</p></li></ol><p>   <img src="http://q9yccga3b.bkt.clouddn.com/%E6%96%87%E4%BB%B6%E5%A4%B9%E5%86%85%E5%AE%B9.png" alt=""></p><p>   <strong>（如果遇到什么实在解决不了的问题，我们可以讲这个文件夹直接删除从新开始</strong>（虽然很粗暴，但是很有用）<strong>）</strong></p><ol start="5"><li><p>准备就绪，我们首先输入 cd blog 进入到刚才新建的文件夹</p><p>然后输入 hexo init 耐心等待初始化 </p><p>最后输入 hexo s  </p><p>会出现<br><img src="http://q9yccga3b.bkt.clouddn.com/%E6%9C%AC%E5%9C%B0%E9%A2%84%E8%A7%88.png" alt=""></p></li></ol><pre><code>&gt; 将 http://localhost:4000 复制粘贴到浏览器中就会出现![](http://q9yccga3b.bkt.clouddn.com/%E5%88%9D%E5%A7%8B%E5%8C%96.png)这样我们博客的本地搭建就完成啦~</code></pre>]]></content>
     
     <summary type="html">
     
