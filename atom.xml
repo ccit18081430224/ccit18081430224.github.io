@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://ccit18081430224.github.io/"/>
-  <updated>2020-05-13T09:31:02.225Z</updated>
+  <updated>2020-05-23T10:08:59.818Z</updated>
   <id>https://ccit18081430224.github.io/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>关于图片</title>
+    <link href="https://ccit18081430224.github.io/2020/05/23/%E5%85%B3%E4%BA%8E%E5%9B%BE%E7%89%87/"/>
+    <id>https://ccit18081430224.github.io/2020/05/23/%E5%85%B3%E4%BA%8E%E5%9B%BE%E7%89%87/</id>
+    <published>2020-05-23T09:27:48.000Z</published>
+    <updated>2020-05-23T10:08:59.818Z</updated>
+    
+    <content type="html"><![CDATA[<p>博文上传上去了，只有文字，未免干巴巴的，让人没有想看下去的欲望。所以我们要给我们的博文配上相应的图片，使它图文并茂<a id="more"></a></p><h2 id="关于图片"><a href="#关于图片" class="headerlink" title="关于图片"></a>关于图片</h2><p>我这里用的是七牛云</p><ol><li>我们先注册一个七牛云账号，然后登录，进入管理控制台</li></ol><p><img src="http://q9yccga3b.bkt.clouddn.com/%E7%AE%A1%E7%90%86%E6%8E%A7%E5%88%B6%E5%8F%B0.png" alt=""><br>2. 添加对象存储</p><p><img src="http://q9yccga3b.bkt.clouddn.com/%E5%AD%98%E5%82%A8%E7%A9%BA%E9%97%B4.png" alt=""><br><em>因为我这里是申请过了的，所以提示不可以的哦，你们可以起一个自己的名字</em><br>3. 点击上传文件</p><p><img src="http://q9yccga3b.bkt.clouddn.com/%E4%B8%8A%E4%BC%A0%E6%96%87%E4%BB%B6.png" alt=""><br>4. 上传进度到100%之后，点击刷新。这时候会出现你上传的那张图，然后点击更多，最后点击复制外链。</p><p><img src="http://q9yccga3b.bkt.clouddn.com/%E5%A4%96%E9%93%BE.png" alt=""><br>5. 把刚刚复制的外链粘贴到写博文的编辑器里来</p><p><img src="http://q9yccga3b.bkt.clouddn.com/%E9%93%BE%E6%8E%A5%E4%B8%8A%E4%BC%A0.png" alt=""></p><p>*<em>注：一定是英文状态下的  !+[] +() *</em></p><p>图片上传成功啦，我们的博客终于有图片啦~</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;博文上传上去了，只有文字，未免干巴巴的，让人没有想看下去的欲望。所以我们要给我们的博文配上相应的图片，使它图文并茂
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>关于博文</title>
